@@ -48,6 +48,7 @@ export type LOGFONTW_ = Pointer;
 export type LOGPALETTE_ = Pointer;
 export type LOGPEN_ = Pointer;
 export type LONG = number;
+export type NULL = null;
 export type LPABC = Pointer;
 export type LPARAM = Pointer;
 export type LPBITMAPINFO = Pointer;

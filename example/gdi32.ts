@@ -7,7 +7,7 @@ const end = performance.now();
 console.log('GDI32 bindings initialized in %sms', (end - start).toFixed(2));
 
 // Create a memory DC for offscreen drawing
-const hdcScreen = GDI32.CreateCompatibleDC(null);
+const hdcScreen = GDI32.CreateCompatibleDC(0n);
 console.log('CreateCompatibleDC:', hdcScreen ? 'success' : 'failed');
 
 // Create a solid brush
