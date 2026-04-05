@@ -1,7 +1,7 @@
 {
   "author": "Stev Peifer <stev@bell.net>",
   "bugs": {
-    "url": "https://github.com/obscuritysrl/bun-gdi32/issues"
+    "url": "https://github.com/bun-win32/gdi32/issues"
   },
   "description": "Zero-dependency, zero-overhead Win32 GDI32 bindings for Bun (FFI) on Windows.",
   "devDependencies": {
@@ -12,18 +12,18 @@
   },
   "license": "MIT",
   "module": "index.ts",
-  "name": "bun-gdi32",
+  "name": "@bun-win32/gdi32",
   "peerDependencies": {
     "typescript": "^5"
   },
   "private": false,
-  "homepage": "https://github.com/obscuritysrl/bun-gdi32#readme",
+  "homepage": "https://github.com/bun-win32/gdi32#readme",
   "repository": {
     "type": "git",
-    "url": "git://github.com/obscuritysrl/bun-gdi32.git"
+    "url": "git://github.com/bun-win32/gdi32.git"
   },
   "type": "module",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "./index.ts",
   "keywords": [
     "bun",
@@ -42,9 +42,7 @@
     "types/*.ts",
     "README.md"
   ],
-  "sideEffects": [
-    "runtime/extensions.ts"
-  ],
+  "sideEffects": false,
   "engines": {
     "bun": ">=1.1.0"
   },
