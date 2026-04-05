@@ -23,7 +23,7 @@
     "url": "git://github.com/bun-win32/gdi32.git"
   },
   "type": "module",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "./index.ts",
   "keywords": [
     "bun",
